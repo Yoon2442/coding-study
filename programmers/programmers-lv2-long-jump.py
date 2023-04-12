@@ -1,3 +1,4 @@
+# Programmers - 멀리 뛰기
 def solution(n):
     answer = 0
     array=[1]
