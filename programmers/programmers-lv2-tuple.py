@@ -11,4 +11,5 @@ def solution(s):
     for i in range(1,len(s)):
         result.append([x for x in s[i] if x not in s[i-1]])
     result=[result[i][0] for i in range(len(result))]
+    test=0
     return result
